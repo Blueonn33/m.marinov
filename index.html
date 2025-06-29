@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal website of Martin Marinov – computer science student, photographer and web developer. See my projects and contact me.">
+    <meta property="og:title" content="Martin Marinov">
+    <meta property="og:description" content="Personal website of Martin Marinov – computer science student, photographer and web developer.">
+    <title>Martin Marinov</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="./Images/favicon.ico">
+</head>
+<body>
+    <div>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#mansorContainer">Mansor</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#indigoContainer">Indigo</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#madMathContainer">MadMath</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#onyxContainer">Onyx</a>
+            </li>
+        </ul>
+    </div>
+    <div class="px-4 py-5 my-5 text-center container" id="home"> 
+        <img class="d-block mx-auto mb-4 profilePic" src="./Images/ProfilePictureHalf.jpg" 
+        alt=""> 
+        <h1 class="display-5 fw-bold text-body-emphasis">MARTIN MARINOV</h1> 
+        <div class="col-lg-6 mx-auto"> 
+            <p class="lead mb-4">Student at University of Veliko Tarnovo "St. Cyril and Methodius", Bulgaria, majoring in Computer Science.
+                 <br><br><strong>Front-end developer</strong>
+            </p> 
+            <hr>
+            <div>
+                <h2 class="display-5 fw-bold text-body-emphasis mb-5">Contact me</h2>
+                <p class="lead fs-4 mb-5"><b>Email:</b> m.marinov1733@gmail.com</p>
+                <div class="contact">
+                    <!-- <span class="lead fs-5"><b>Facebook:</b> Martin Marinov</span> -->
+                    <a class="m-4" href="https://www.facebook.com/martin.marinov.9256028" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                        </svg>
+                    </a>
+                    <a class="m-4" href="https://www.instagram.com/m.marinov33/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                        </svg>
+                    </a>
+                    <a class="m-4" href="https://www.linkedin.com/in/martin-marinov-3b65b6284/" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                        </svg>
+                    </a>
+                    <a class="m-4" href="https://github.com/Blueonn33" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                        </svg>
+                    </a>
+                    <a class="m-4" href="https://www.youtube.com/@Mansor_17" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                        </svg>
+                    </a>
+                    <div class="discord m-4">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
+                                <path d="M13.545 2.907a13.2 13.2 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.2 12.2 0 0 0-3.658 0 8 8 0 0 0-.412-.833.05.05 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.04.04 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032q.003.022.021.037a13.3 13.3 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019q.463-.63.818-1.329a.05.05 0 0 0-.01-.059l-.018-.011a9 9 0 0 1-1.248-.595.05.05 0 0 1-.02-.066l.015-.019q.127-.095.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.05.05 0 0 1 .053.007q.121.1.248.195a.05.05 0 0 1-.004.085 8 8 0 0 1-1.249.594.05.05 0 0 0-.03.03.05.05 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.2 13.2 0 0 0 4.001-2.02.05.05 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.03.03 0 0 0-.02-.019m-8.198 7.307c-.789 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612m5.316 0c-.788 0-1.438-.724-1.438-1.612s.637-1.613 1.438-1.613c.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612"/>
+                            </svg>
+                        </div>
+                        <div class="discordName">
+                            <p>Discord: blueonn</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mt-5"> 
+                <h2 class="display-5 fw-bold text-body-emphasis">My projects</h2>
+            </div> 
+        </div> 
+    </div>
+    <div class="container projectsContainer">
+        <div class="projectLogoContainer">
+            <img class="projectLogo" src="Images/OnyxAllWhite.png">
+        </div>
+        <div class="projectLogoContainer">
+            <img class="projectLogo" src="Images/IndigoAllWhite.png">
+        </div>
+        <div class="projectLogoContainer">
+            <img class="projectLogo" src="Images/MansorAllWhite.png">
+        </div>
+    </div>
+    <div class="mansorBg">
+        <div class="container my-5 mansorContainer" id="mansorContainer"> 
+            <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center shadow-lg rowContainer"> 
+                <div class="col-lg-7 p-3 p-lg-5 pt-lg-3"> 
+                    <h1 class="display-4 fw-bold lh-1 mb-5">Student notebook MANSOR</h1> 
+                    <p class="lead fw-bold projectDescription">The Student Notebook MANSOR is an innovative web 
+                        application designed to assist students in their academic and personal development. 
+                        This application aims to provide a comprehensive solution for effective management of 
+                        study tasks, personal time, and activities that contribute to holistic student development. 
+                    </p> 
+                    <p class="lead projectDescription">
+                        The application is included in the scientific journal "Mathematics, Computer Science and Education"
+                        of the University of Veliko Tarnovo "St. Cyril and Methodius", (VOLUME 7, ISSUE 2).
+                    </p>
+                    <div class="mb-3">
+                        <a class="btn btn-outline-secondary btn-lg px-4 fw-bold text-white border-white journalButton" href="https://journals.uni-vt.bg/mcse/bul/vol7/iss2/art8" 
+                            target="_blank">To the journal
+                        </a>
+                    </div>
+                    <div class="gitContainer">
+                        <h1>Code:</h1>
+                        <a href="https://github.com/Blueonn33/Mansor17" target="_blank" class="gitIcon gitMansor mb-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                            </svg>
+                        </a>
+                        <h1>Video:</h1>
+                        <a href="https://www.youtube.com/watch?v=c5b7VzqdLWs&t=1s" target="_blank" class="gitIcon gitMansor mb-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                                <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div> 
+                <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg" style="height: 340px;">
+                    <img class="img-fluid w-100 h-100 object-fit-contain rounded-lg-3" src="./Images/MANSOR.png" alt="">
+                </div>
+            </div> 
+        </div>
+    </div>
+    <div class="indigoBg">
+        <div class="container my-5 indigoContainer" id="indigoContainer"> 
+            <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center shadow-lg rowContainer"> 
+                <div class="col-lg-7 p-3 p-lg-5 pt-lg-3"> 
+                    <h1 class="display-4 fw-bold lh-1 mb-5">Scientific journals INDIGO</h1> 
+                    <p class="lead fw-bold projectDescription">
+                        Indigo is a web application designed to facilitate the publishing process in the scientific community.
+                        It provides a platform where users can participate as publishers, authors, or
+                        reviewers. Publishers have the ability to create and manage scientific journals, while authors
+                        can publish their research in the respective publications. For an article to be published in a
+                        journal, a reviewer must have reviewed and approved it.
+                    </p> 
+                    <p class="lead projectDescription">
+                        The application has not yet been included in a scientific journal.
+                    </p>
+                    <!-- <div class="mb-3">
+                       <a class="btn btn-outline-secondary btn-lg px-4 fw-bold text-white border-white journalButton indigoBtn" href="https://journals.uni-vt.bg/mcse/bul/vol7/iss2/art8" target="_blank">
+                            Към списанието
+                        </a>
+                    </div> -->
+                    <div class="gitContainer">
+                        <h1>Code:</h1>
+                        <a href="https://github.com/Blueonn33/Indigo" target="_blank" class="gitIcon gitIndigo mb-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                            </svg>
+                        </a>
+                        <h1>Video:</h1>
+                        <a href="https://www.youtube.com/watch?v=D6k901Js-TI&t=2s" target="_blank" class="gitIcon gitIndigo mb-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                                <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div> 
+                <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg" style="height: 340px;">
+                    <img class="img-fluid w-100 h-100 object-fit-contain rounded-lg-3" src="./Images/Indigo.png" alt=""> 
+                </div> 
+            </div> 
+        </div>
+    </div>
+    <div class="mathBg">
+        <div class="container my-5 mathContainer" id="madMathContainer"> 
+            <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center shadow-lg rowContainer"> 
+                <div class="col-lg-7 p-3 p-lg-5 pt-lg-3"> 
+                    <h1 class="display-4 fw-bold lh-1 mb-5">Mobile application MadMath</h1> 
+                    <p class="lead fw-bold projectDescription">The MadMath app offers a personalized learning experience 
+                        through
+                        integrated task management features and interactive exercises. MadMath allows
+                        students to track their progress and actively engage with the educational material.
+                    </p> 
+                    <p class="lead projectDescription">
+                        The application is included in the scientific journal "Digital Educational Technologies"
+                        of the University of Veliko Tarnovo "St. Cyril and Methodius", (VOLUME 1, ISSUE 2).
+                    </p>
+                    <div class="mb-3">
+                        <a class="btn btn-outline-secondary btn-lg px-4 fw-bold text-white border-white journalButton mathBtn" 
+                            href="https://journals.uni-vt.bg/dt/bul/vol1/iss2/art7" 
+                            target="_blank">To the journal
+                        </a>
+                    </div>
+                    <div class="thunkableContainer ">
+                        <h1>Try it:</h1>
+                        <a class="thunkableA" href="https://x.thunkable.com/projectPage/66d1caf0625d3b7d4adb1f29" target="_blank" class="gitIcon">
+                            <img src="./Images/thunkable.png" alt="" class="thunkableBtn">
+                        </a>
+                    </div>
+                </div> 
+                <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg" style="height: 340px;">
+                    <img class="img-fluid w-100 h-100 object-fit-contain rounded-lg-3" src="./Images/MadMath.png" alt=""> 
+                </div> 
+            </div> 
+        </div>
+    </div>
+    <div class="onyxBg">
+        <div class="container my-5 onyxContainer" id="onyxContainer"> 
+            <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center shadow-lg rowContainer"> 
+                <div class="col-lg-7 p-3 p-lg-5 pt-lg-3"> 
+                    <h1 class="display-4 fw-bold lh-1 mb-5">ONYX</h1> 
+                    <p class="lead fw-bold projectDescription">
+                        Coming soon :))
+                    </p> 
+                    <!-- <p class="lead">
+                        Приложението все още не е включено в научно списание.
+                    </p> -->
+                    <!-- <div class="mb-3">
+                       <a class="btn btn-outline-secondary btn-lg px-4 fw-bold text-white border-white journalButton indigoBtn" href="https://journals.uni-vt.bg/mcse/bul/vol7/iss2/art8" target="_blank">
+                            Към списанието
+                        </a>
+                    </div> -->
+                    <div class="gitContainer">
+                        <h1>Code:</h1>
+                        <a href="https://github.com/Blueonn33/Onyx" target="_blank" class="gitIcon gitOnyx">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div> 
+                <div class="onyxImgContainer col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg mb-5" style="height: 340px;">
+                    <img class="img-fluid w-100 h-100 object-fit-contain rounded-lg-3" src="./Images/OnyxBlue.png" alt=""> 
+                </div> 
+            </div> 
+        </div>
+    </div>
+    <div class="px-4 py-5 my-5 text-center container">
+        <hr>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mt-5 mb-5"> 
+            <h2 class="display-5 fw-bold text-body-emphasis">Languages</h2>
+        </div> 
+        <hr>
+        <div class="container languages">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="lang">HTML</div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="lang">CSS</div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="lang">JavaScript</div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="lang">React</div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="lang">jQuery</div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="lang">C++</div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="lang">C#</div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="lang">Bootstrap</div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="lang">SQL</div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="lang">PROLOG</div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="lang">Scheme</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="px-4 text-center container">
+        <hr>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mt-5 mb-5"> 
+            <h2 class="display-5 fw-bold text-body-emphasis">Awards</h2>
+        </div> 
+        <hr>
+       <div class="album py-5"> 
+        <div class="container"> 
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3"> 
+                <div class="col"> 
+                    <div class="card shadow p-3 mb-5 bg-white rounded"> 
+                        <img src="./Images/seminar.png" class="pt-3 rounded mx-auto d-block" height="auto" width="200px">
+                        <div class="card-body"> 
+                            <p class="card-text">Award for applicability in a scientific conference of young
+                                researchers of the Faculty of Mathematics and Informatics. <br>
+                                University of Veliko Tarnovo "St. Cyril and Methodius" </p> 
+                            <div class="d-flex justify-content-between align-items-center"> 
+                                <small class="text-body-secondary">2024</small> 
+                            </div> 
+                        </div> 
+                    </div> 
+                </div> 
+                <div class="col"> 
+                    <div class="card shadow p-3 mb-5 bg-white rounded"> 
+                        <img src="./Images/seminar.png" class="pt-3 rounded mx-auto d-block" height="auto" width="200px">
+                        <div class="card-body"> 
+                            <p class="card-text">Award for applicability in a scientific conference of young
+                                researchers of the Faculty of Mathematics and Informatics. <br>
+                                University of Veliko Tarnovo "St. Cyril and Methodius" </p> 
+                            <div class="d-flex justify-content-between align-items-center"> 
+                                <small class="text-body-secondary">2025</small> 
+                            </div> 
+                        </div> 
+                    </div> 
+                </div> 
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mt-5 mb-5"> 
+            <h2 class="text-center display-5 fw-bold text-body-emphasis">Internship</h2>
+        </div> 
+        <hr>
+        <div>
+            <div class="internshipContainer">
+                <div class="mentorImageContainer">
+                    <img class="mentorImage img-fluid" src="Images/MentorMate">
+                </div>
+                <div class="mentorContent mt-5 mb-5">
+                    <h1>MentorMate</h1>
+                    <p>Front-end developer, Veliko Tarnovo office, Bulgaria<br>
+                        February 2022 - May 2023</p>
+                    <p>I was involved in the development of a web application called <strong>VividTracker</strong></p>
+                    <div class="vividContainer">
+                        <h3 class="mt-2 me-4">Code:</h3>
+                        <a href="https://github.com/mm-mihailn/VividTracker" target="_blank" class="gitVivid">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mb-5">
+        <hr>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mt-5 mb-5"> 
+            <h2 class="text-center display-5 fw-bold text-body-emphasis">Favourite music</h2>
+        </div> 
+        <hr>
+        <div class="container ">
+            <div class="maneskinContainer container mb-5">
+                <div class="row">
+                    <div class="musicianImageContainer col-lg-6 col-md-6 col-sm-12">
+                        <img src="Images/Maneskin.png" class="img-fluid musicianImage">
+                    </div>
+                    <div class="musicianContent mt-5 col-lg-6 col-md-6 col-sm-12">
+                        <h1 class="text-white">Måneskin</h1>
+                        <div class="songsContainer pe-3">
+                            <div class="song mb-3">
+                                <img src="Images/MarkChapman.jpg" class="col-6 img-fluid songImage me-3">
+                                <div class="col-6">
+                                    <h3>MARK CHAPMAN</h3>
+                                    <a href="https://youtu.be/Hkg-KMhVVok?si=s1PIu_UJsI0cKStI" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-youtube songButton" viewBox="0 0 16 16">
+                                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="song mb-3">
+                                <img src="Images/OwnMyMind.jpeg" class="col-6 img-fluid songImage me-3">
+                                <div class="col-6">
+                                    <h3>OWN MY MIND</h3>
+                                    <a href="https://youtu.be/ABbggjVQm6A?si=oH0JNCNktbhztdW3" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-youtube songButton" viewBox="0 0 16 16">
+                                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="song mb-3">
+                                <img src="Images/ReadYourDiary.jpg" class="col-6 img-fluid songImage me-3">
+                                <div class="col-6">
+                                    <h3>READ YOUR DIARY</h3>
+                                    <a href="https://youtu.be/1eGycga48ng?si=NsiAqN51FyaDmECy" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-youtube songButton" viewBox="0 0 16 16">
+                                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>      
+                </div>          
+            </div>
+
+            <div class="fujiiContainer container mb-5">
+                <div class="row">
+                    <div class="musicianImageContainer col-lg-6 col-md-6 col-sm-12">
+                        <img src="Images/Fujii.jpg" class="img-fluid musicianImage">
+                    </div>
+                    <div class="musicianContent mt-5 col-lg-6 col-md-6 col-sm-12">
+                        <h1 class="text-white">Fujii Kaze</h1>
+                        <div class="songsContainer pe-3">
+                            <div class="song mb-3">
+                                <img src="Images/Shino.jpeg" class="col-6 img-fluid songImage me-3">
+                                <div class="col-6">
+                                    <h3>Shinunoga E-Wa</h3>
+                                    <a href="https://youtu.be/dawrQnvwMTY?si=VgiILoX7GykbMm4d" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-youtube songButton" viewBox="0 0 16 16">
+                                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="song mb-3">
+                                <img src="Images/Kirari.jpg" class="col-6 img-fluid songImage me-3">
+                                <div class="col-6">
+                                    <h3>Kirari</h3>
+                                    <a href="https://youtu.be/TcLLpZBWsck?si=-YCnOK-mQmMiXPGV" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-youtube songButton" viewBox="0 0 16 16">
+                                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="song mb-3">
+                                <img src="Images/Matsuri" class="col-6 img-fluid songImage me-3">
+                                <div class="col-6">
+                                    <h3>Matsuri</h3>
+                                    <a href="https://youtu.be/NwOvu-j_WjY?si=Za2UVsyE5JKfygOs" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-youtube songButton" viewBox="0 0 16 16">
+                                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>      
+                </div>          
+            </div>
+
+            <div class="mrKittyContainer container mb-5">
+                <div class="row">
+                    <div class="musicianImageContainer col-lg-6 col-md-6 col-sm-12">
+                        <img src="Images/MrKitty" class="img-fluid musicianImage">
+                    </div>
+                    <div class="musicianContent mt-5 col-lg-6 col-md-6 col-sm-12">
+                        <h1 class="text-white">Mr Kitty</h1>
+                        <div class="songsContainer pe-3">
+                            <div class="song mb-3">
+                                <img src="Images/Angel.jpg" class="col-6 img-fluid songImage me-3">
+                                <div class="col-6">
+                                    <h3>0% Angel</h3>
+                                    <a href="https://youtu.be/YqdwcI1_Rkk?si=hnXAu5tpw7cZfYyy" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-youtube songButton" viewBox="0 0 16 16">
+                                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="song mb-3">
+                                <img src="Images/ILostYou.jpg" class="col-6 img-fluid songImage me-3">
+                                <div class="col-6">
+                                    <h3>I Lost You</h3>
+                                    <a href="https://youtu.be/fe1Fg_mX_s0?si=dmyVCHaSfDBhKj5_" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-youtube songButton" viewBox="0 0 16 16">
+                                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="song mb-3">
+                                <img src="Images/Home.jpg" class="col-6 img-fluid songImage me-3">
+                                <div class="col-6">
+                                    <h3>Home</h3>
+                                    <a href="https://youtu.be/zMPjnDCAcUg?si=eQi4G4_CGRZnZaHy" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-youtube songButton" viewBox="0 0 16 16">
+                                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>      
+                </div>          
+            </div>
+
+            <div class="otnickaContainer container">
+                <div class="row">
+                    <div class="musicianImageContainer col-lg-6 col-md-6 col-sm-12">
+                        <img src="Images/Otnicka.jpeg" class="img-fluid musicianImage">
+                    </div>
+                    <div class="musicianContent mt-5 col-lg-6 col-md-6 col-sm-12">
+                        <h1 class="text-white">Otnicka</h1>
+                        <div class="songsContainer pe-3">
+                            <div class="song mb-3">
+                                <img src="Images/Mirage.jpg" class="col-6 img-fluid songImage me-3">
+                                <div class="col-6">
+                                    <h3>Mirage</h3>
+                                    <a href="https://youtu.be/WWXD5DVeXE4?si=oXGmS7pASkE79hn5" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-youtube songButton" viewBox="0 0 16 16">
+                                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="song mb-3">
+                                <img src="Images/Emirates.jpg" class="col-6 img-fluid songImage me-3">
+                                <div class="col-6">
+                                    <h3>Emirates</h3>
+                                    <a href="https://youtu.be/1_xr2OVNq08?si=f9aM2D12Hz99FXAy" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-youtube songButton" viewBox="0 0 16 16">
+                                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="song mb-3">
+                                <img src="Images/Selfish.jpeg" class="col-6 img-fluid songImage me-3">
+                                <div class="col-6">
+                                    <h3>Selfish</h3>
+                                    <a href="https://youtu.be/rkiIm5UR2zE?si=LlSNGlLD_nhYk6Pp" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-youtube songButton" viewBox="0 0 16 16">
+                                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>      
+                </div>          
+            </div>
+        </div>
+    </div>
+    <div class="p-0 m-0">
+        <footer class="p-0 m-0"> 
+            <ul class="nav justify-content-center border-bottom"> 
+                <li class="nav-item">
+                    <a href="#home" class="nav-link px-4">Home</a>
+                </li> 
+                <li class="nav-item">
+                    <a href="#mansorContainer" class="nav-link px-4">Mansor</a>
+                </li> <li class="nav-item">
+                    <a href="#indigoContainer" class="nav-link px-4">Indigo</a>
+                </li> 
+                <li class="nav-item">
+                    <a href="#madMathContainer" class="nav-link px-4">MadMath</a>
+                </li> 
+                <li class="nav-item">
+                    <a href="#onyxContainer" class="nav-link px-4">Onyx</a>
+                </li> 
+            </ul> 
+            <p class="text-center fs-5 mb-0 py-2">© 2025 Martin Marinov</p> 
+        </footer>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</body>
+</html>
